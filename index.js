@@ -21,6 +21,4 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 var recipes = { omelette : 'eggs' , salad : 'lettuce'}
 
 delete recipes.salad
-}
-
 
