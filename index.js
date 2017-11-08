@@ -1,4 +1,4 @@
-var recipes = {'type' : 'ingredient'}
+var recipes = {}
 
 function Objects(recipes, key , value){
 
