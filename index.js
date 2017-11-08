@@ -32,5 +32,6 @@ return delete recipestwo.salad;
 
 var recipesthree = { omelette : 'eggs' , salad : 'lettuce'};
 function destructivelyDeleteFromObjectByKey(object, key) {
-  return Object.assign({}, object, { [key]: value })
+  return Object.assign({ omelette : 'eggs' , salad : 'lettuce'} , {lunch : 'toast'})
+  
 }
