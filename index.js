@@ -11,10 +11,16 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   return object
   }
 
-var recipes = { omelette : 'eggs' , salad : 'lettuce'}
 function  deleteFromObjectByKey(object, key){
-return delete recipes.salad
+  
+  const newObj = Object.assign({}, object)
+
+    delete newObj[key]
+
+    return newObj
+
 }
+
 
 
 
