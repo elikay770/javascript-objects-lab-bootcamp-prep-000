@@ -27,6 +27,5 @@ const recipestwo = { omelette : 'eggs' , salad : 'lettuce'};
 function destructivelyDeleteFromObjectByKey(object, key) {
 
 return delete recipestwo.salad;
-recipes two;
+recipestwo;
 }
-
