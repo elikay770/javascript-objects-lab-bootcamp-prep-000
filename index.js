@@ -23,8 +23,8 @@ function  deleteFromObjectByKey(object, key){
 return delete recipes.salad
 }
 
-const recipes = { omelette : 'eggs' , salad : 'lettuce'};
+const recipestwo = { omelette : 'eggs' , salad : 'lettuce'};
 function destructivelyDeleteFromObjectByKey(object, key) {
 
-return delete recipes.salad
+return delete recipestwo.salad
 }
