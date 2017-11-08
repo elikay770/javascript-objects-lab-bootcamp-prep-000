@@ -30,5 +30,4 @@ return delete recipestwo.salad
 }
 
 var recipesthree = { omelette : 'eggs' , salad : 'lettuce'};
-delete recipesthree.salad
-}
+delete recipesthree.salad;
