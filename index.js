@@ -28,5 +28,3 @@ function destructivelyDeleteFromObjectByKey(object, key) {
 
 return delete recipestwo.sala
 }
-
-
