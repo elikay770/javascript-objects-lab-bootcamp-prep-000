@@ -30,6 +30,5 @@ return delete recipestwo.salad
 }
 
 var recipesthree = { omelette : 'eggs' , salad : 'lettuce'};
-function destructivelyDeleteFromObjectByKey(object, key) {
-return delete recipesthree.salad
+delete recipesthree.salad
 }
