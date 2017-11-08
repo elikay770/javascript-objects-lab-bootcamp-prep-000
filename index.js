@@ -20,7 +20,6 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 
 var recipes = { omelette : 'eggs' , salad : 'lettuce'}
 function deleteFromObjectByKey(object, key) {
-  return 
+  return
 delete recipes.salad
 }
-
