@@ -23,7 +23,7 @@ function  deleteFromObjectByKey(object, key){
 return delete recipes.salad
 }
 
-var recipestwo = { omelette : 'eggs' , salad : 'lettuce'};
+
 function destructivelyDeleteFromObjectByKey(object, key) {
 
 return delete recipestwo.salad
