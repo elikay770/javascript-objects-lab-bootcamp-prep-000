@@ -22,4 +22,3 @@ var recipes = { omelette : 'eggs' , salad : 'lettuce'}
 function  deleteFromObjectByKey(object, key){
 delete object.salad
 }
-
