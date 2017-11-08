@@ -27,5 +27,4 @@ var recipestwo = { omelette : 'eggs' , salad : 'lettuce'};
 function destructivelyDeleteFromObjectByKey(object, key) {
 
 return delete recipestwo.salad;
-
 }
